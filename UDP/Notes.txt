@@ -1,0 +1,2 @@
+Judobase json path:
+https://data.ijf.org/api/get_json?access_token=&params%5Baction%5D=wrl.by_category&params%5B__ust%5D=&params%5Blimit%5D=5000&params%5B&params%5Bpart%5D=info%2Cpoints

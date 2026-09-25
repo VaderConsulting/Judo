@@ -1,0 +1,217 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MappingTool.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="GeneralImportFilename" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="GeneralImportHeaders" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="GeneralImportRemoveTotalRow" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="GeneralImportDelimiter" Type="System.String" Scope="User">
+      <Value Profile="(Default)">,</Value>
+    </Setting>
+    <Setting Name="IJFExportFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\my_ippon.org\events</Value>
+    </Setting>
+    <Setting Name="ReferenceClubsFilename" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Reference\Clubs.csv</Value>
+    </Setting>
+    <Setting Name="ReferenceCountriesFilename" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Reference\Countries.csv</Value>
+    </Setting>
+    <Setting Name="EuroJudoDatabaseFilename" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\EuroJudo\Tournaments.mdb</Value>
+    </Setting>
+    <Setting Name="EuroJudoExportFilename" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\EuroJudo\Data\Members &amp; Clubs for import.xls</Value>
+    </Setting>
+    <Setting Name="ReferenceSubDivisionsFilename" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Reference\SubDivisions.csv</Value>
+    </Setting>
+    <Setting Name="EuroJudoEventValueMinimumComparison" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">66</Value>
+    </Setting>
+    <Setting Name="EuroJudoWeightValueMinimumComparison" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">75</Value>
+    </Setting>
+    <Setting Name="BeltValueMinimumComparison" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">33</Value>
+    </Setting>
+    <Setting Name="EuroJudoGenderValueMinimumComparison" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">33</Value>
+    </Setting>
+    <Setting Name="EuroJudoClubValueMinimumComparison" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">66</Value>
+    </Setting>
+    <Setting Name="EuroJudoWeightCategoryOverReplacement" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;O&lt;/string&gt;
+  &lt;string&gt;&amp;gt;&lt;/string&gt;
+  &lt;string&gt;over&lt;/string&gt;
+  &lt;string&gt;Over&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="EuroJudoWeightCategoryUnderReplacement" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;U&lt;/string&gt;
+  &lt;string&gt;&amp;lt;&lt;/string&gt;
+  &lt;string&gt;under&lt;/string&gt;
+  &lt;string&gt;Under&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="EuroJudoWeightCategoryOverValue" Type="System.String" Scope="User">
+      <Value Profile="(Default)">+</Value>
+    </Setting>
+    <Setting Name="EuroJudoWeightCategoryUnderValue" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-</Value>
+    </Setting>
+    <Setting Name="EuroJudoTournamentQuery" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SELECT DISTINCT [Game Index], Tournament FROM [Tournament Data] ORDER BY [Game Index]</Value>
+    </Setting>
+    <Setting Name="EuroJudoEventQuery" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SELECT [Event Nr], [Genus], [Group] FROM [Tournament Data] WHERE [Game Index] = ##SelectedEuroJudoTournament_Index## ORDER BY [Event Nr]</Value>
+    </Setting>
+    <Setting Name="EuroJudoWeightQuery" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SELECT [Class Nr], [Group], [Weight Category], [Lower Limit], [Upper Limit] FROM [Weight Categories] WHERE [Game Index] = ##SelectedEuroJudoTournament_Index## ORDER BY [Class Nr]</Value>
+    </Setting>
+    <Setting Name="PreviousEuroJudoTournament" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PreviousEuroJudoEventTypeColumnIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="PreviousEuroJudoWeightCategoryColumnIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="PreviousClubColumnIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="PreviousMemberIDColumnIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="PreviousYearOfBirthColumnIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="PreviousGenderColumnIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="PreviousBeltColumnIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="PreviousFirstNameColumnIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="PreviousSurnameColumnIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="PreviousEuroJudoDayOfBirthColumnIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="PreviousFirstNameTranslationType" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="PreviousSurnameTranslationType" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="PreviousMemberIDTranslationType" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="PreviousEuroJudoDayOfBirthTranslationType" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="PreviousEuroJudoMonthOfBirthTranslationType" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="PreviousEuroJudoYearOfBirthTranslationType" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="EuroJudoFunctionValueMinimumComparison" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">75</Value>
+    </Setting>
+    <Setting Name="PreviousEuroJudoFunctionColumnIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="PreviousDateOfBirthColumnIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="IJFDatabaseConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SERVER=localhost;UID=your_user;DATABASE=ippon_org_db;PORT=3306</Value>
+    </Setting>
+    <Setting Name="PreviousIJFTournament" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="IJFTournamentQuery" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SELECT event_id, event_name FROM ippon_org_db.tta_events;</Value>
+    </Setting>
+    <Setting Name="PreviousOutputType" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="IJFWeightCategoryOverReplacement" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;O&lt;/string&gt;
+  &lt;string&gt;&amp;gt;&lt;/string&gt;
+  &lt;string&gt;over&lt;/string&gt;
+  &lt;string&gt;Over&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="IJFWeightCategoryOverValue" Type="System.String" Scope="User">
+      <Value Profile="(Default)">+</Value>
+    </Setting>
+    <Setting Name="IJFWeightCategoryUnderReplacement" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;U&lt;/string&gt;
+  &lt;string&gt;&amp;lt;&lt;/string&gt;
+  &lt;string&gt;under&lt;/string&gt;
+  &lt;string&gt;Under&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="IJFWeightCategoryUnderValue" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-</Value>
+    </Setting>
+    <Setting Name="IJFWeightValueMinimumComparison" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">75</Value>
+    </Setting>
+    <Setting Name="IJFFunctionValueMinimumComparison" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">75</Value>
+    </Setting>
+    <Setting Name="PreviousIJFFunctionColumnIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="IJFWeightQuery" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SELECT event_age_group, event_gender, event_cat_m, event_cat_w FROM ippon_org_db.tta_events
+ WHERE event_name = '##SelectedIJFTournament_Name##';</Value>
+    </Setting>
+    <Setting Name="PreviousIJFWeightCategoryColumnIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="PreviousIJFPhotoColumnIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="IJFUserPhotoSaveFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\my_ippon.org\my_pics</Value>
+    </Setting>
+    <Setting Name="GeneralImportRemoveLateFeeTotalRow" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="IJFPhotoFilenameIsMemberID" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="GeneralClubDefaultCountryCode" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AUS</Value>
+    </Setting>
+    <Setting Name="GeneralShowDataInfoWindow" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="IJFSystemPhotoSaveFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\xampp\htdocs\ippon.org\data\pics</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

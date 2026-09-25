@@ -1,0 +1,90 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Designer.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="EuroJudoEventValueMinimumComparison" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">66</Value>
+    </Setting>
+    <Setting Name="EuroJudoWeightValueMinimumComparison" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">75</Value>
+    </Setting>
+    <Setting Name="EuroJudoWeightCategoryOverReplacement" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;O&lt;/string&gt;
+  &lt;string&gt;&amp;gt;&lt;/string&gt;
+  &lt;string&gt;over&lt;/string&gt;
+  &lt;string&gt;Over&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="EuroJudoWeightCategoryUnderReplacement" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;U&lt;/string&gt;
+  &lt;string&gt;&amp;lt;&lt;/string&gt;
+  &lt;string&gt;under&lt;/string&gt;
+  &lt;string&gt;Under&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="EuroJudoWeightCategoryOverValue" Type="System.String" Scope="User">
+      <Value Profile="(Default)">+</Value>
+    </Setting>
+    <Setting Name="EuroJudoWeightCategoryUnderValue" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-</Value>
+    </Setting>
+    <Setting Name="EuroJudoTournamentQuery" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SELECT DISTINCT [Game Index], Tournament FROM [Tournament Data] ORDER BY [Game Index]</Value>
+    </Setting>
+    <Setting Name="EuroJudoEventQuery" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SELECT [Event Nr], [Genus], [Group] FROM [Tournament Data] WHERE [Game Index] = ##SelectedEuroJudoTournament_Index## ORDER BY [Event Nr]</Value>
+    </Setting>
+    <Setting Name="EuroJudoWeightQuery" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SELECT [Class Nr], [Group], [Weight Category] FROM [Weight Categories] WHERE [Game Index] = ##SelectedEuroJudoTournament_Index## ORDER BY [Class Nr]</Value>
+    </Setting>
+    <Setting Name="EuroJudoClubValueMinimumComparison" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">50</Value>
+    </Setting>
+    <Setting Name="EuroJudoDatabaseFilename" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\YourUser\OneDrive\Documents\Judo\Tournaments\Tournaments.mdb</Value>
+    </Setting>
+    <Setting Name="EuroJudoExportFilename" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\YourUser\OneDrive\VS Projects\Revolutionise\Samples\euro.xls</Value>
+    </Setting>
+    <Setting Name="EuroJudoClubsFilename" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\YourUser\OneDrive\VS Projects\Revolutionise\Samples\Clubs.csv</Value>
+    </Setting>
+    <Setting Name="EuroJudoCountriesFilename" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\YourUser\OneDrive\VS Projects\Revolutionise\Samples\Countries.csv</Value>
+    </Setting>
+    <Setting Name="EuroJudoSubDivisionsFilename" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\YourUser\OneDrive\VS Projects\Revolutionise\Samples\SubDivisions.csv</Value>
+    </Setting>
+    <Setting Name="LastEuroJudoTournament" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ImportFilename" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\YourUser\OneDrive\VS Projects\Revolutionise\Samples\revolutioniseSPORT-JudoWA-Anothertest.csv</Value>
+    </Setting>
+    <Setting Name="LastEuroJudoEventTypeColumnIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="LastEuroJudoWeightCategoryColumnIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="LastEuroJudoClubColumnIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="ImportFileHasHeaders" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="RemoveTotalRowFromImport" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="LastImportDelimiter" Type="System.String" Scope="User">
+      <Value Profile="(Default)">,</Value>
+    </Setting>
+    <Setting Name="IJFExportFilename" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

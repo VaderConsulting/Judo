@@ -1,0 +1,260 @@
+ID,Club Name,Country,Region,Shortname
+0,No club affiliation,AU,AU,NON
+1,28 Hundred,AU,NSW,28H
+2,Adelaide Aiki Judo Club,AU,SA,AAJ
+3,Adelaide University Judo Club,AU,SA,ADU
+4,Adelaide Hills Judo Club,AU,SA,AHJ
+5,Australian Institute of Judo,AU,WA,AIJ
+6,Alexandra Judo-Champ Academy,NZ,CAN,AJA
+7,Auscore Judo,AU,VIC,AJC
+8,ANU Judo Club,AU,ACT,ANU
+9,Albury PCYC Judo Club,AU,NSW,APJ
+10,Atamai Rutu Nomads,NZ,CAN,ARN
+11,Aspire Judo Academy,AU,VIC,ASP
+12,Auckland University Judo Club,NZ,AUK,AUJ
+13,Avalon Judo Club,AU,NSW,AVJ
+14,Balwyn Judo Club,AU,VIC,BAL
+15,Blacktown City Judo Club,AU,NSW,BCJ
+16,Bushido Canley Vale,AU,NSW,BCV
+17,Bangs Dojo Judo Club,AU,VIC,BDJ
+18,Beyond Grappling Club,AU,ACT,BGC
+19,Bundaberg State High School Judo Club,AU,QLD,BHS
+20,Big Judo,NZ,AUK,BIG
+21,Berard Judo Academy,AU,VIC,BJA
+22,Burnie Judo Club,AU,TAS,BJC
+23,Brisbane Judo Institute,AU,QLD,BJI
+24,Blenheim Judo Club,NZ,NSN,BLJ
+25,Budokan,AU,NSW,BNS
+26,Bridgewater PCYC,AU,TAS,BPC
+27,Bentleigh-Southern Judo Club,AU,VIC,BSJ
+28,BTB Judo,AU,VIC,BTB
+29,Bulimba Judo Club,AU,QLD,BUL
+30,Bond University White Scorpio Judo Club,AU,QLD,BUW
+31,Budokan,NZ,WGN,BWG
+32,Carnarvon Judo Club,AU,WA,CAR
+33,Caulfield Judo Club,AU,VIC,CAU
+34,Camkada,NZ,WKO,CAM
+35,Can-Am-Ju,NZ,CAN,CAN
+36,City College Judo Wanganui,NZ,WGN,CCJ
+37,Colo Heights Judo & Jujitsu Club,AU,NSW,CHJ
+38,Castle Hill PCYC Judo Club,AU,QLD,CHP
+39,Coral Coast Judo Club,AU,QLD,COC
+40,Coffs Coast Judo Club,AU,NSW,COF
+41,Cooma Judo Club,AU,NSW,COJ
+42,Coolangatta Judo Club,AU,QLD,COO
+43,Clarence PCYC Judo Club,AU,TAS,CPJ
+44,Christchurch School Of Judo,NZ,CAN,CSO
+45,Daigaku Judo Club - Townsville Inc,AU,QLD,DAI
+46,Dalby Judo,AU,QLD,DAJ
+47,Darwin Judo Club,AU,NT,DAR
+48,Devonport Judo Club,AU,TAS,DEV
+49,Dae Han Judo,NZ,WKO,DHJ
+50,Dragon Judo Club,AU,NSW,DJC
+51,Dragon Judo Perth,AU,WA,DJP
+52,Dando Sports Academy School,AU,VIC,DSA
+53,Diamond Valley Judo Centre,AU,VIC,DVJ
+54,Endeavour Hills Judo Club,AU,VIC,EHJ
+55,Evolution Judo Academy,AU,NSW,EJA
+56,Elite Judo Club,AU,WA,EJC
+57,Elements Judo Club,AU,ACT,ELE
+58,Elizabeth Special Needs Judo Club,AU,SA,ESN
+59,Forgotten Art Judo,NZ,WGN,FAJ
+60,Flinders University Judo Club,AU,SA,FUJ
+61,Gawler Judo Club,AU,SA,GAW
+62,Gold Coast Judo Academy,AU,QLD,GCJ
+63,Geelong YMCA Judo Club,AU,VIC,GEE
+64,Geraldton Judo Club,AU,WA,GER
+65,Gin Gin Judo Club,AU,QLD,GGJ
+66,Glenelg Hopkins Judo Club,AU,VIC,GHJ
+67,Ginkan Judo School,AU,TAS,GIN
+68,Gisborne Judo Club,NZ,WKO,GIS
+69,Goshu Judokan,AU,NSW,GOJ
+70,Goshin Judo Club,NZ,AUK,GOS
+71,Granity Judo Club,NZ,NSN,GRA
+72,Hajamie Judo,NZ,AUK,HAJ
+73,Hawthorn and Lilydale Judo Clubs,AU,VIC,HAL
+74,Howick Academy Of Judo,NZ,AUK,HAO
+75,Hantokan Deception Bay PCYC Judo Club,AU,QLD,HDB
+76,Henkada,NZ,WKO,HEN
+77,Highlands International Judo Club,AU,NSW,HIJ
+78,Hobart PCYC Judo Club,AU,TAS,HOB
+79,Hornsby PCYC Judo,AU,NSW,HOR
+80,Hantokan Redcliffe PCYC Judo Club,AU,QLD,HRP
+81,Hill Sports Academy,AU,ACT,HSA
+82,Hobart University Judo Club,AU,TAS,HUJ
+83,IHIC Youth Judo Club,AU,NSW,IHI
+84,Illawarra International Judo,AU,NSW,IIJ
+85,iJudo Club,AU,VIC,IJC
+86,Immersion MMA,AU,VIC,IMM
+87,Inala PCYC Judo Club,AU,QLD,INA
+88,Infinity Judo,AU,QLD,INF
+89,Innisfail Judo Club,AU,QLD,INN
+90,Ipswich PCYC Judo Club,AU,QLD,IPS
+91,Isshindokan Judo Club,AU,QLD,ISS
+92,Judo Bendigo,AU,VIC,JBE
+93,Judo Club Victory,AU,VIC,JCV
+94,Judo International,AU,WA,JIN
+95,Jita Kyoei Judo Club,AU,NSW,JKJ
+96,Judo Kenkyu Noosa,AU,QLD,JKN
+97,Judo Matsu,AU,NSW,JMA
+98,Judokwai North Harbour,NZ,AUK,JNH
+99,Ju-No-Kwai Gladstone,AU,QLD,JNK
+100,Judo Ryu Western Australia,AU,WA,JRW
+101,Judo Sorell Martial Arts Academy,AU,TAS,JSM
+102,Judokan,AU,VIC,JUD
+103,Judo1 Wollongong,AU,NSW,JWO
+104,Ju You Kai,AU,VIC,JYK
+105,Kaizen Judo,AU,VIC,KAI
+106,Kangaroo Judo Club Inc,AU,SA,KAN
+107,Kapiti Judo Club,NZ,WGN,KAP
+108,Kardinia Judo Club,AU,VIC,KAR
+109,Kazoku Judokan,AU,SA,KAZ
+110,Kumataka Dojos Bayswater,AU,WA,KDB
+111,Kumataka Dojos Epping,AU,NSW,KDE
+112,Kumataka Dojos St George,AU,NSW,KDS
+113,Kitsune Judo Club,AU,NSW,KIT
+114,Korea Judo Academy,NZ,AUK,KJA
+115,Kaikoura Judo Club,NZ,CAN,KJC
+116,Kano Judo Schools,AU,WA,KJS
+117,Keri Keri Judo Club,NZ,AUK,KKJ
+118,Kido Mingara Judo Academy,AU,NSW,KMJ
+119,Koizumi Kwai,NZ,WGN,KOI
+120,Kokoro Judo,AU,NSW,KOK
+121,KRJJ Judo Club,AU,QLD,KRJ
+122,Kugatsu Bathurst,AU,NSW,KUB
+123,Kugatsu - Central Coast,AU,NSW,KUC
+124,Kugatsu Judo Club (NSW),AU,NSW,KUN
+125,Kurabu Judo Club,AU,QLD,KUR
+126,Kugatsu Judo Club (TAS),AU,TAS,KUT
+127,Kaikorai Valley College Judo Club,NZ,CAN,KVC
+128,Kyushin Judo Club,AU,QLD,KYU
+129,Levin Judo Club,NZ,WGN,LEV
+130,Lakay Judo Club Belmont Incorporated,AU,WA,LJC
+131,Lismore PCYC Judo,AU,NSW,LPJ
+132,Lang Park PCYC Judo Club,AU,QLD,LPP
+133,MacKillop Judo Club,AU,ACT,MAC
+134,Mairusu Kai,NZ,CAN,MAI
+135,Malanda Judo Club,AU,QLD,MAL
+136,Marist Judo Club,AU,ACT,MAR
+137,Masterton Judo Academy,NZ,WGN,MAS
+138,Metro Judo Club,NZ,WKO,MET
+139,Milford Judo Club,NZ,AUK,MIL
+140,MIJA Judo Academy,AU,QLD,MJA
+141,Maleny Judo Club,AU,QLD,MAJ
+142,Muchea Judo Club,AU,WA,MJC
+143,Mackay Kodokan Judo Club,AU,QLD,MKJ
+144,Mornington Judo Club,AU,VIC,MOR
+145,Motueka Judo Club,NZ,NSN,MOT
+146,Maitland PCYC Judo,AU,NSW,MPJ
+147,Marrara Judo Club,AU,NT,MRJ
+148,Martial Spirit,AU,VIC,MSP
+149,MTG Judo Club Corinda,AU,QLD,MTG
+150,Mitchelton Youth Club,AU,QLD,MYC
+151,Napier Judo Club,NZ,WGN,NAP
+152,Ni Bonchi Judo Club,AU,ACT,NBJ
+153,Nelson Judo Club,NZ,NSN,NEL
+154,Newtown Judo Club,AU,NSW,NET
+155,Newport Judo Club,AU,VIC,NEW
+156,Nippon Judo Club,NZ,AUK,NIP
+157,Nippon Seibukan Judo,AU,QLD,NIS
+158,Northland Judo Club,NZ,AUK,NJC
+159,Northern Beaches Judo Club,AU,QLD,NOR
+160,Northern Peninsula Area Judo Club,AU,QLD,NPA
+161,New Plymouth Judo Academy,NZ,WGN,NPJ
+162,North Shore Judo Academy,NZ,AUK,NSA
+163,Northern Sydney Judo Club,AU,NSW,NSJ
+164,Nelson Total Judo Academy,AU,QLD,NTJ
+165,Ochiba Dojo,NZ,AUK,OCH
+166,Ohori Judo Club,AU,QLD,OHO
+167,Olympia Judo Club,AU,ACT,OJC
+168,O-KO,AU,NSW,OKO
+169,Olympia Martial Arts,AU,ACT,OMA
+170,Otago University Judo Club,NZ,CAN,OUJ
+171,Pacific Judo Club,NZ,WKO,PAC
+172,Port Augusta Judo Club,AU,SA,PAJ
+173,Premiere Equipe Judo Club,NZ,CAN,PEJ
+174,Parafield Gardens Judo Club,AU,SA,PGJ
+175,Phoenix Judo Club,AU,NSW,PHO
+176,Pittsworth Judo Club,AU,QLD,PIT
+177,Preston-Eltham Judo Club,AU,VIC,PJC
+178,Platinum Judo Club,AU,SA,PLA
+179,PCYC Lake Macquarie Judo Club,AU,NSW,PLM
+180,Port Macquarie Judo Club,AU,NSW,PMJ
+181,Palmerston North Judo Club,NZ,WGN,PNJ
+182,PowerUp Judo Club,AU,QLD,POW
+183,Penrith PCYC Judo Club,AU,NSW,PPJ
+184,Queenstown Judo,NZ,CAN,QUE
+185,Renshuden Judo Club,NZ,CAN,REN
+186,RS Judo Club,AU,WA,RJC
+187,Rakuen Martial Arts,AU,QLD,RMA
+188,Roma Judo Club,AU,QLD,ROM
+189,Rosebank Judo Club,AU,NSW,ROS
+190,Resilience Training Centre,AU,VIC,RTC
+191,RF United Judo Club,AU,QLD,RUJ
+192,SA Judo Academy,AU,SA,SAJ
+193,Samurai Judo Academy - Newcastle,AU,NSW,SAM
+194,Santos Judo Academy,AU,WA,SAN
+195,Scotch College Judo Club,AU,WA,SCJ
+196,Senshi Academy,AU,VIC,SEN
+197,Serrano Judo Academy,AU,VIC,SER
+198,Shin Gi Tai Judo Club,AU,QLD,SGT
+199,Shinojimakai Judo Club,AU,VIC,SHI
+200,Shinsei Judo Club,AU,NSW,SHJ
+201,Shogan Hills Judo Club,AU,QLD,SHO
+202,Seven Hills RSL Judo Club,AU,NSW,SHR
+203,Sydney International Judo Club,AU,NSW,SIJ
+204,Samurai Judo Club,AU,QLD,SJC
+205,Scorpion Judo & Martial Arts Centre,AU,SA,SJM
+206,So Kan Ju (Timaru),NZ,CAN,SKJ
+207,Swordsmen Martial Arts Judo Club,AU,QLD,SMA
+208,St Mark Lions Judo,AU,NSW,SML
+209,Southside Judo Club,AU,QLD,SOU
+210,Sutherland PCYC Judo Sharks,AU,NSW,SPJ
+211,Sang-Rok Hedland Judo Club,AU,WA,SRH
+212,STRA JUDO,AU,NSW,STR
+213,Sydney University Judo Club,AU,NSW,SUJ
+214,Sang-Rok Wonthaggi Judo Club,AU,VIC,SRW
+215,SouthWest Judo Academy,AU,WA,SWJ
+216,Tauranga Judo Club,NZ,WKO,TAU
+217,Tawa Judo Club,NZ,WGN,TAW
+218,Tecoma Judo Club,AU,VIC,TEC
+219,Top End Judo Academy,AU,NT,TEJ
+220,Tweed Heads PCYC Judo Club,AU,NSW,THP
+221,Tiger Judo Club,AU,SA,TIG
+222,Taketani Judo Academy,AU,VIC,TJA
+223,The Judo Studio,AU,NT,TJS
+224,Tiger-Do Martial Arts,AU,NSW,TMA
+225,Tokoroa Judo Club,NZ,WKO,TOK
+226,Traralgon Judo Club,AU,VIC,TRA
+227,Team Umaf Judo Club,NZ,CAN,TUJ
+228,UFC Gym Blacktown,AU,NSW,UGB
+229,Upper Hutt City Judo Club,NZ,WGN,UHC
+230,UTS Judo Club,AU,NSW,UJC
+231,Ulverstone Judo Club,AU,TAS,ULV
+232,UNSW Judo,AU,NSW,UON
+233,University of Queensland Judo Club,AU,QLD,UOQ
+234,Uni of South Australia Judo Club,AU,SA,UOS
+235,University of Western Australia,AU,WA,UOW
+236,Waihi Judo,NZ,WKO,WAI
+237,Wanganui Judo Club,NZ,WGN,WAN
+238,Waverley Judo Club,AU,VIC,WAV
+239,Wellington Judo Academy,NZ,WGN,WEL
+240,Westside Judo Club,NZ,CAN,WES
+241,Whakatane Judo Club,NZ,WKO,WHA
+242,Whyalla Judo Club,AU,SA,WHY
+243,Willoughby Judo,AU,NSW,WIL
+244,Woy Woy Judo,AU,NSW,WOY
+245,Wellington PCYC Judo,AU,NSW,WPJ
+246,Woopi Warriors Judo Club,AU,NSW,WWJ
+247,Western Youth Centre Judo Club,AU,SA,WYC
+248,Wainuiomata YMCA Judo Club,NZ,WGN,WYJ
+249,Yinnar and District Judo Club,AU,VIC,YAD
+250,Yarra Judo,AU,VIC,YAR
+251,Y South Judo Club,AU,QLD,YSJ
+252,Zenbu Judo Club,AU,NSW,ZEN
+253,Zoo Judo,AU,NSW,ZOO
+254,ASPTT Section Judo,NC,,SJA
+255,Nauru Judo,NR,,NAU
+256,Judo Club Caledonien,NC,,NCJ
+257,Nabua Judo Club,FJ,,NJC
+258,Pole espoir Judo New Caledonia,NC,,PEJ

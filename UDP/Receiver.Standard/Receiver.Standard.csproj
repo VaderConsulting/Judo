@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\Receiver\LanguageFile.cs" Link="LanguageFile.cs" />
+    <Compile Include="..\Receiver\UDPDataReceivedEventArgs.cs" Link="UDPDataReceivedEventArgs.cs" />
+    <Compile Include="..\Receiver\UDPListener.cs" Link="UDPListener.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Utility\Utility.Core.csproj" />
+  </ItemGroup>
+
+</Project>

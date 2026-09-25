@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AgeCategories>
+    <AgeCategory MinAge="-1" MaxAge="10" Sex="M" SpecialNeeds="false" Name="MonStar Boys" ID="1" WeightLimitID="5" Order="1" AgeGroupID="1">
+        <WeightCategories>
+            <WeightCategory Max="18"/>
+            <WeightCategory Min="18.1" Max="21"/>
+            <WeightCategory Min="21.1" Max="24"/>
+            <WeightCategory Min="24.1" Max="27"/>
+            <WeightCategory Min="27.1" Max="30"/>
+            <WeightCategory Min="30.1" Max="33"/>
+            <WeightCategory Min="33.1" Max="36"/>
+            <WeightCategory Min="36.1" Max="39"/>
+            <WeightCategory Min="39.1" Max="42"/>
+            <WeightCategory Min="42.1"/>
+        </WeightCategories>
+    </AgeCategory>
+    <AgeCategory MinAge="11" MaxAge="12" Sex="M" SpecialNeeds="false" Name="Junior Boys" ID="3" WeightLimitID="5" Order="5" AgeGroupID="2">
+        <WeightCategories>
+            <WeightCategory Max="24"/>
+            <WeightCategory Min="24.1" Max="27"/>
+            <WeightCategory Min="27.1" Max="30"/>
+            <WeightCategory Min="30.1" Max="34"/>
+            <WeightCategory Min="34.1" Max="38"/>
+            <WeightCategory Min="38.1" Max="42"/>
+            <WeightCategory Min="42.1" Max="46"/>
+            <WeightCategory Min="46.1" Max="50"/>
+            <WeightCategory Min="50.1"/>
+        </WeightCategories>
+    </AgeCategory>
+    <AgeCategory MinAge="13" MaxAge="14" Sex="M" SpecialNeeds="false" Name="Senior Boys" ID="5" WeightLimitID="5" Order="9" AgeGroupID="3">
+        <WeightCategories>
+            <WeightCategory Max="34"/>
+            <WeightCategory Min="34.1" Max="38"/>
+            <WeightCategory Min="38.1" Max="42"/>
+            <WeightCategory Min="42.1" Max="46"/>
+            <WeightCategory Min="46.1" Max="50"/>
+            <WeightCategory Min="50.1" Max="55"/>
+            <WeightCategory Min="55.1" Max="60"/>
+            <WeightCategory Min="60.1" Max="66"/>
+            <WeightCategory Min="66.1"/>
+        </WeightCategories>
+    </AgeCategory>
+    <AgeCategory MinAge="15" MaxAge="17" Sex="M" SpecialNeeds="false" Name="Cadet Men" ID="7" WeightLimitID="11" Order="13" AgeGroupID="4">
+        <WeightCategories>
+            <WeightCategory Max="50" Name="Feather weight"/>
+            <WeightCategory Min="50.1" Max="55" Name="Extra-Light Weight"/>
+            <WeightCategory Min="55.1" Max="60" Name="Half-Light Weight"/>
+            <WeightCategory Min="60.1" Max="66" Name="Light Weight"/>
+            <WeightCategory Min="66.1" Max="73" Name="Half-Middle Weight"/>
+            <WeightCategory Min="73.1" Max="81" Name="Middle Weight"/>
+            <WeightCategory Min="81.1" Max="90" Name="Half-Heavy Weight"/>
+            <WeightCategory Min="90.1" Name="Heavy Weight"/>
+        </WeightCategories>
+    </AgeCategory>
+    <AgeCategory MinAge="18" MaxAge="20" Sex="M" SpecialNeeds="false" Name="Junior Men" ID="9" WeightLimitID="11" Order="17" AgeGroupID="5">
+        <WeightCategories>
+            <WeightCategory Max="55" Name="Feather weight"/>
+            <WeightCategory Min="55.1" Max="60" Name="Extra-Light Weight"/>
+            <WeightCategory Min="60.1" Max="66" Name="Half-Light Weight"/>
+            <WeightCategory Min="66.1" Max="73" Name="Light Weight"/>
+            <WeightCategory Min="73.1" Max="81" Name="Half-Middle Weight"/>
+            <WeightCategory Min="81.1" Max="90" Name="Middle Weight"/>
+            <WeightCategory Min="90.1" Max="100" Name="Half-Heavy Weight"/>
+            <WeightCategory Min="100.1" Name="Heavy Weight"/>
+        </WeightCategories>
+    </AgeCategory>
+    <AgeCategory MinAge="21" Sex="M" SpecialNeeds="false" Name="Senior Men" ID="11" WeightLimitID="13" Order="21" AgeGroupID="6">
+        <WeightCategories>
+            <WeightCategory Min="54" MaximumWeight="60" Name="Extra-Light Weight"/>
+            <WeightCategory Min="60.1" Max="66" Name="Half-Light Weight"/>
+            <WeightCategory Min="66.1" Max="73" Name="Light Weight"/>
+            <WeightCategory Min="73.1" Max="81" Name="Half-Middle Weight"/>
+            <WeightCategory Min="81.1" Max="90" Name="Middle Weight"/>
+            <WeightCategory Min="90.1" Max="100" Name="Half-Heavy Weight"/>
+            <WeightCategory Min="100.1" Name="Heavy Weight"/>
+            <WeightCategory Name="Open Weight"/>
+        </WeightCategories>
+    </AgeCategory>
+    <AgeCategory MinAge="30" Sex="M" SpecialNeeds="false" Name="Master Men" ID="13" WeightLimitID="13" Order="25" AgeGroupID="7">
+        <WeightCategories>
+            <WeightCategory Max="60" Name="Extra-Light Weight"/>
+            <WeightCategory Min="60.1" Max="66" Name="Half-Light Weight"/>
+            <WeightCategory Min="66.1" Max="73" Name="Light Weight"/>
+            <WeightCategory Min="73.1" Max="81" Name="Half-Middle Weight"/>
+            <WeightCategory Min="81.1" Max="90" Name="Middle Weight"/>
+            <WeightCategory Min="90.1" Max="100" Name="Half-Heavy Weight"/>
+            <WeightCategory Min="100.1" Name="Heavy Weight"/>
+            <WeightCategory Name="Open Weight"/>
+        </WeightCategories>
+    </AgeCategory>
+    <AgeCategory MinAge="-1" MaxAge="10" Sex="M" SpecialNeeds="true" Name="MonStar Boys (Special Needs)" ID="15" WeightLimitID="19" Order="2" AgeGroupID="1">
+        <WeightCategories>
+            <WeightCategory Max="18"/>
+            <WeightCategory Min="18.1" Max="21"/>
+            <WeightCategory Min="21.1" Max="24"/>
+            <WeightCategory Min="24.1" Max="27"/>
+            <WeightCategory Min="27.1" Max="30"/>
+            <WeightCategory Min="30.1" Max="33"/>
+            <WeightCategory Min="33.1" Max="36"/>
+            <WeightCategory Min="36.1" Max="39"/>
+            <WeightCategory Min="39.1" Max="42"/>
+            <WeightCategory Min="42.1"/>
+        </WeightCategories>
+    </AgeCategory>
+    <AgeCategory MinAge="11" MaxAge="12" Sex="M" SpecialNeeds="true" Name="Junior Boys (Special Needs)" ID="17" WeightLimitID="19" Order="6" AgeGroupID="2">
+        <WeightCategories>
+            <WeightCategory Max="24"/>
+            <WeightCategory Min="24.1" Max="27"/>
+            <WeightCategory Min="27.1" Max="30"/>
+            <WeightCategory Min="30.1" Max="34"/>
+            <WeightCategory Min="34.1" Max="38"/>
+            <WeightCategory Min="38.1" Max="42"/>
+            <WeightCategory Min="42.1" Max="46"/>
+            <WeightCategory Min="46.1" Max="50"/>
+            <WeightCategory Min="50.1"/>
+        </WeightCategories>
+    </AgeCategory>
+    <AgeCategory MinAge="13" MaxAge="14" Sex="M" SpecialNeeds="true" Name="Senior Boys (Special Needs)" ID="19" WeightLimitID="19" Order="10" AgeGroupID="3">
+        <WeightCategories>
+            <WeightCategory Max="34"/>
+            <WeightCategory Min="34.1" Max="38"/>
+            <WeightCategory Min="38.1" Max="42"/>
+            <WeightCategory Min="42.1" Max="46"/>
+            <WeightCategory Min="46.1" Max="50"/>
+            <WeightCategory Min="50.1" Max="55"/>
+            <WeightCategory Min="55.1" Max="60"/>
+            <WeightCategory Min="60.1" Max="66"/>
+            <WeightCategory Min="66.1"/>
+        </WeightCategories>
+    </AgeCategory>
+    <AgeCategory MinAge="15" MaxAge="17" Sex="M" SpecialNeeds="true" Name="Cadet Men (Special Needs)" ID="21" WeightLimitID="25" Order="14" AgeGroupID="4">
+        <WeightCategories>
+            <WeightCategory Max="50" Name="Feather weight"/>
+            <WeightCategory Min="50.1" Max="55" Name="Extra-Light Weight"/>
+            <WeightCategory Min="55.1" Max="60" Name="Half-Light Weight"/>
+            <WeightCategory Min="60.1" Max="66" Name="Light Weight"/>
+            <WeightCategory Min="66.1" Max="73" Name="Half-Middle Weight"/>
+            <WeightCategory Min="73.1" Max="81" Name="Middle Weight"/>
+            <WeightCategory Min="81.1" Max="90" Name="Half-Heavy Weight"/>
+            <WeightCategory Min="90.1" Name="Heavy Weight"/>
+        </WeightCategories>
+    </AgeCategory>
+    <AgeCategory MinAge="18" MaxAge="20" Sex="M" SpecialNeeds="true" Name="Junior Men (Special Needs)" ID="23" WeightLimitID="25" Order="18" AgeGroupID="5">
+        <WeightCategories>
+            <WeightCategory Max="55" Name="Feather weight"/>
+            <WeightCategory Min="55.1" Max="60" Name="Extra-Light Weight"/>
+            <WeightCategory Min="60.1" Max="66" Name="Half-Light Weight"/>
+            <WeightCategory Min="66.1" Max="73" Name="Light Weight"/>
+            <WeightCategory Min="73.1" Max="81" Name="Half-Middle Weight"/>
+            <WeightCategory Min="81.1" Max="90" Name="Middle Weight"/>
+            <WeightCategory Min="90.1" Max="100" Name="Half-Heavy Weight"/>
+            <WeightCategory Min="100.1" Name="Heavy Weight"/>
+        </WeightCategories>
+    </AgeCategory>
+  <AgeCategory MinAge="21" Sex="M" SpecialNeeds="true" Name="Senior Men (Special Needs)" ID="25" WeightLimitID="27" Order="22" AgeGroupID="6">
+    <WeightCategories>
+      <WeightCategory Max="60" Name="Extra-Light Weight"/>
+      <WeightCategory Min="60.1" Max="66" Name="Half-Light Weight"/>
+      <WeightCategory Min="66.1" Max="73" Name="Light Weight"/>
+      <WeightCategory Min="73.1" Max="81" Name="Half-Middle Weight"/>
+      <WeightCategory Min="81.1" Max="90" Name="Middle Weight"/>
+      <WeightCategory Min="90.1" Max="100" Name="Half-Heavy Weight"/>
+      <WeightCategory Min="100.1" Name="Heavy Weight"/>
+      <WeightCategory Name="Open Weight"/>
+    </WeightCategories>
+  </AgeCategory>
+    <AgeCategory MinAge="30" Sex="M" SpecialNeeds="true" Name="Master Men (Special Needs)" ID="27" WeightLimitID="27" Order="26" AgeGroupID="7">
+        <WeightCategories>
+            <WeightCategory Max="60" Name="Extra-Light Weight"/>
+            <WeightCategory Min="60.1" Max="66" Name="Half-Light Weight"/>
+            <WeightCategory Min="66.1" Max="73" Name="Light Weight"/>
+            <WeightCategory Min="73.1" Max="81" Name="Half-Middle Weight"/>
+            <WeightCategory Min="81.1" Max="90" Name="Middle Weight"/>
+            <WeightCategory Min="90.1" Max="100" Name="Half-Heavy Weight"/>
+            <WeightCategory Min="100.1" Name="Heavy Weight"/>
+            <WeightCategory Name="Open Weight"/>
+        </WeightCategories>
+    </AgeCategory>
+  <AgeCategory MinAge="-1" MaxAge="10" Sex="F" SpecialNeeds="false" Name="MonStar Girls" ID="2" WeightLimitID="6" Order="3" AgeGroupID="1">
+    <WeightCategories>
+      <WeightCategory Max="16"/>
+      <WeightCategory Min="16.1" Max="19"/>
+      <WeightCategory Min="19.1" Max="22"/>
+      <WeightCategory Min="22.1" Max="25"/>
+      <WeightCategory Min="25.1" Max="28"/>
+      <WeightCategory Min="28.1" Max="31"/>
+      <WeightCategory Min="31.1" Max="34"/>
+      <WeightCategory Min="34.1" Max="37"/>
+      <WeightCategory Min="37.1" Max="40"/>
+      <WeightCategory Min="40.1"/>
+    </WeightCategories>
+  </AgeCategory>
+  <AgeCategory MinAge="11" MaxAge="12" Sex="F" SpecialNeeds="false" Name="Junior Girls" ID="4" WeightLimitID="6" Order="7" AgeGroupID="2">
+    <WeightCategories>
+      <WeightCategory Max="22"/>
+      <WeightCategory Min="22.1" Max="25"/>
+      <WeightCategory Min="25.1" Max="28"/>
+      <WeightCategory Min="28.1" Max="32"/>
+      <WeightCategory Min="32.1" Max="36"/>
+      <WeightCategory Min="36.1" Max="40"/>
+      <WeightCategory Min="40.1" Max="44"/>
+      <WeightCategory Min="44.1" Max="48"/>
+      <WeightCategory Min="48.1"/>
+    </WeightCategories>
+  </AgeCategory>
+  <AgeCategory MinAge="13" MaxAge="14" Sex="F" SpecialNeeds="false" Name="Senior Girls" ID="6" WeightLimitID="6" Order="11" AgeGroupID="3">
+    <WeightCategories>
+      <WeightCategory Max="32"/>
+      <WeightCategory Min="32.1" Max="36"/>
+      <WeightCategory Min="36.1" Max="40"/>
+      <WeightCategory Min="40.1" Max="44"/>
+      <WeightCategory Min="44.1" Max="48"/>
+      <WeightCategory Min="48.1" Max="52"/>
+      <WeightCategory Min="52.1" Max="57"/>
+      <WeightCategory Min="57.1" Max="63"/>
+      <WeightCategory Min="63.1"/>
+    </WeightCategories>
+  </AgeCategory>
+  <AgeCategory MinAge="15" MaxAge="17" Sex="F" SpecialNeeds="false" Name="Cadet Women" ID="8" WeightLimitID="12" Order="15" AgeGroupID="4">
+    <WeightCategories>
+      <WeightCategory Max="40" Name="Feather weight"/>
+      <WeightCategory Min="40.1" Max="44" Name="Extra-Light Weight"/>
+      <WeightCategory Min="44.1" Max="48" Name="Half-Light Weight"/>
+      <WeightCategory Min="48.1" Max="52" Name="Light Weight"/>
+      <WeightCategory Min="52.1" Max="57" Name="Half-Middle Weight"/>
+      <WeightCategory Min="57.1" Max="63" Name="Middle Weight"/>
+      <WeightCategory Min="63.1" Max="70" Name="Half-Heavy Weight"/>
+      <WeightCategory Min="70.1" Name="Heavy Weight"/>
+    </WeightCategories>
+  </AgeCategory>
+  <AgeCategory MinAge="18" MaxAge="20" Sex="F" SpecialNeeds="false" Name="Junior Women" ID="10" WeightLimitID="12" Order="19" AgeGroupID="5">
+    <WeightCategories>
+      <WeightCategory Max="44" Name="Feather weight"/>
+      <WeightCategory Min="44.1" Max="48" Name="Extra-Light Weight"/>
+      <WeightCategory Min="48.1" Max="52" Name="Half-Light Weight"/>
+      <WeightCategory Min="52.1" Max="57" Name="Light Weight"/>
+      <WeightCategory Min="57.1" Max="63" Name="Half-Middle Weight"/>
+      <WeightCategory Min="63.1" Max="70" Name="Middle Weight"/>
+      <WeightCategory Min="70.1" Max="78" Name="Half-Heavy Weight"/>
+      <WeightCategory Min="78.1" Name="Heavy Weight"/>
+    </WeightCategories>
+  </AgeCategory>
+  <AgeCategory MinAge="21" Sex="F" SpecialNeeds="false" Name="Senior Women" ID="12" WeightLimitID="14" Order="23" AgeGroupID="6">
+    <WeightCategories>
+      <WeightCategory Max="48" Name="Extra-Light Weight"/>
+      <WeightCategory Min="48.1" Max="52" Name="Half-Light Weight"/>
+      <WeightCategory Min="52.1" Max="57" Name="Light Weight"/>
+      <WeightCategory Min="57.1" Max="63" Name="Half-Middle Weight"/>
+      <WeightCategory Min="63.1" Max="70" Name="Middle Weight"/>
+      <WeightCategory Min="70.1" Max="78" Name="Half-Heavy Weight"/>
+      <WeightCategory Min="78.1" Name="Heavy Weight"/>
+      <WeightCategory Name="Open Weight"/>
+    </WeightCategories>
+  </AgeCategory>
+  <AgeCategory MinAge="30" Sex="F" SpecialNeeds="false" Name="Master Women" ID="14" WeightLimitID="14" Order="27" AgeGroupID="7">
+    <WeightCategories>
+      <WeightCategory Max="48" Name="Extra-Light Weight"/>
+      <WeightCategory Min="48.1" Max="52" Name="Half-Light Weight"/>
+      <WeightCategory Min="52.1" Max="57" Name="Light Weight"/>
+      <WeightCategory Min="57.1" Max="63" Name="Half-Middle Weight"/>
+      <WeightCategory Min="63.1" Max="70" Name="Middle Weight"/>
+      <WeightCategory Min="70.1" Max="78" Name="Half-Heavy Weight"/>
+      <WeightCategory Min="78.1" Name="Heavy Weight"/>
+      <WeightCategory Name="Open Weight"/>
+    </WeightCategories>
+  </AgeCategory>
+  <AgeCategory MinAge="-1" MaxAge="10" Sex="F" SpecialNeeds="true" Name="MonStar Girls (Special Needs)" ID="16" WeightLimitID="20" Order="4" AgeGroupID="1">
+    <WeightCategories>
+      <WeightCategory Max="16"/>
+      <WeightCategory Min="16.1" Max="19"/>
+      <WeightCategory Min="19.1" Max="22"/>
+      <WeightCategory Min="22.1" Max="25"/>
+      <WeightCategory Min="25.1" Max="28"/>
+      <WeightCategory Min="28.1" Max="31"/>
+      <WeightCategory Min="31.1" Max="34"/>
+      <WeightCategory Min="34.1" Max="37"/>
+      <WeightCategory Min="37.1" Max="40"/>
+      <WeightCategory Min="40.1"/>
+    </WeightCategories>
+  </AgeCategory>
+  <AgeCategory MinAge="11" MaxAge="12" Sex="F" SpecialNeeds="true" Name="Junior Girls (Special Needs)" ID="18" WeightLimitID="20" Order="8" AgeGroupID="2">
+    <WeightCategories>
+      <WeightCategory Max="22"/>
+      <WeightCategory Min="22.1" Max="25"/>
+      <WeightCategory Min="25.1" Max="28"/>
+      <WeightCategory Min="28.1" Max="32"/>
+      <WeightCategory Min="32.1" Max="36"/>
+      <WeightCategory Min="36.1" Max="40"/>
+      <WeightCategory Min="40.1" Max="44"/>
+      <WeightCategory Min="44.1" Max="48"/>
+      <WeightCategory Min="48.1"/>
+    </WeightCategories>
+  </AgeCategory>
+  <AgeCategory MinAge="13" MaxAge="14" Sex="F" SpecialNeeds="true" Name="Senior Girls (Special Needs)" ID="20" WeightLimitID="20" Order="12" AgeGroupID="3">
+    <WeightCategories>
+      <WeightCategory Max="32"/>
+      <WeightCategory Min="32.1" Max="36"/>
+      <WeightCategory Min="36.1" Max="40"/>
+      <WeightCategory Min="40.1" Max="44"/>
+      <WeightCategory Min="44.1" Max="48"/>
+      <WeightCategory Min="48.1" Max="52"/>
+      <WeightCategory Min="52.1" Max="57"/>
+      <WeightCategory Min="57.1" Max="63"/>
+      <WeightCategory Min="63.1"/>
+    </WeightCategories>
+  </AgeCategory>
+  <AgeCategory MinAge="15" MaxAge="17" Sex="F" SpecialNeeds="true" Name="Cadet Women (Special Needs)" ID="22" WeightLimitID="26" Order="16" AgeGroupID="4">
+    <WeightCategories>
+      <WeightCategory Max="40" Name="Feather weight"/>
+      <WeightCategory Min="40.1" Max="44" Name="Extra-Light Weight"/>
+      <WeightCategory Min="44.1" Max="48" Name="Half-Light Weight"/>
+      <WeightCategory Min="48.1" Max="52" Name="Light Weight"/>
+      <WeightCategory Min="52.1" Max="57" Name="Half-Middle Weight"/>
+      <WeightCategory Min="57.1" Max="63" Name="Middle Weight"/>
+      <WeightCategory Min="63.1" Max="70" Name="Half-Heavy Weight"/>
+      <WeightCategory Min="70.1" Name="Heavy Weight"/>
+    </WeightCategories>
+  </AgeCategory>
+  <AgeCategory MinAge="18" MaxAge="20" Sex="F" SpecialNeeds="true" Name="Junior Women (Special Needs)" ID="24" WeightLimitID="26" Order="20" AgeGroupID="5">
+    <WeightCategories>
+      <WeightCategory Max="44" Name="Feather weight"/>
+      <WeightCategory Min="44.1" Max="48" Name="Extra-Light Weight"/>
+      <WeightCategory Min="48.1" Max="52" Name="Half-Light Weight"/>
+      <WeightCategory Min="52.1" Max="57" Name="Light Weight"/>
+      <WeightCategory Min="57.1" Max="63" Name="Half-Middle Weight"/>
+      <WeightCategory Min="63.1" Max="70" Name="Middle Weight"/>
+      <WeightCategory Min="70.1" Max="78" Name="Half-Heavy Weight"/>
+      <WeightCategory Min="78.1" Name="Heavy Weight"/>
+    </WeightCategories>
+  </AgeCategory>
+  <AgeCategory MinAge="21" Sex="F" SpecialNeeds="true" Name="Senior Women (Special Needs)" ID="26" WeightLimitID="28" Order="24" AgeGroupID="6">
+    <WeightCategories>
+      <WeightCategory Max="48" Name="Extra-Light Weight"/>
+      <WeightCategory Min="48.1" Max="52" Name="Half-Light Weight"/>
+      <WeightCategory Min="52.1" Max="57" Name="Light Weight"/>
+      <WeightCategory Min="57.1" Max="63" Name="Half-Middle Weight"/>
+      <WeightCategory Min="63.1" Max="70" Name="Middle Weight"/>
+      <WeightCategory Min="70.1" Max="78" Name="Half-Heavy Weight"/>
+      <WeightCategory Min="78.1" Name="Heavy Weight"/>
+      <WeightCategory Name="Open Weight"/>
+    </WeightCategories>
+  </AgeCategory>
+  <AgeCategory MinAge="30" Sex="F" SpecialNeeds="true" Name="Master Women (Special Needs)" ID="28" WeightLimitID="28" Order="28" AgeGroupID="7">
+    <WeightCategories>
+      <WeightCategory Max="48" Name="Extra-Light Weight"/>
+      <WeightCategory Min="48.1" Max="52" Name="Half-Light Weight"/>
+      <WeightCategory Min="52.1" Max="57" Name="Light Weight"/>
+      <WeightCategory Min="57.1" Max="63" Name="Half-Middle Weight"/>
+      <WeightCategory Min="63.1" Max="70" Name="Middle Weight"/>
+      <WeightCategory Min="70.1" Max="78" Name="Half-Heavy Weight"/>
+      <WeightCategory Min="78.1" Name="Heavy Weight"/>
+      <WeightCategory Name="Open Weight"/>
+    </WeightCategories>
+  </AgeCategory>
+</AgeCategories>

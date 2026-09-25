@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+  <NameFormatFirstLast>True</NameFormatFirstLast>
+  <DefaultBracketType>0</DefaultBracketType>
+  <ServerPort>8080</ServerPort>
+  <WeightUnits>Kg</WeightUnits>
+  <BackgroundType>Solid</BackgroundType>
+  <BackgroundImage />
+  <BackgroundColor1>#FFFFFF</BackgroundColor1>
+  <BackgroundColor2>#0000FF</BackgroundColor2>
+  <BackgroundLightness>50</BackgroundLightness>
+  <AuxForeground>#000000</AuxForeground>
+  <AuxForeground2>#C0C0C0</AuxForeground2>
+  <AuxHeight>1000</AuxHeight>
+  <AuxWidth>1500</AuxWidth>
+  <AuxTop>0</AuxTop>
+  <AuxLeft>0</AuxLeft>
+  <AuxScreen>1</AuxScreen>
+  <Language />
+  <NumberOfMats>3</NumberOfMats>
+  <Rules>JudoTimer.Messaging.RulesJudoIJF2017_Modified, JudoTimer.Messaging, Version=1.1.0.1, Culture=neutral, PublicKeyToken=null</Rules>
+  <TimeBetweenFrames>5</TimeBetweenFrames>
+  <Player1Color>#1E90FF</Player1Color>
+  <Player2Color>#808080</Player2Color>
+  <HeadingBGColor>#6B8E23</HeadingBGColor>
+  <ImportTextEncoding>65001</ImportTextEncoding>
+  <WebPort>8081</WebPort>
+  <RulesSet>
+    <Rules>
+      <Name>JudoTimer.Messaging.RulesJudoIJF2017_Modified, JudoTimer.Messaging, Version=1.1.0.1, Culture=neutral, PublicKeyToken=null</Name>
+      <Description>Judo - IJF (2017) (Modified)</Description>
+      <Family>Judo - IJF</Family>
+      <Layout>Judo</Layout>
+      <Gender>Both</Gender>
+      <Rank>All</Rank>
+      <MinAge>0</MinAge>
+      <MaxAge>100</MaxAge>
+      <MatchTime>00:04:00</MatchTime>
+      <MinTimeBetweenMatches>00:10:00</MinTimeBetweenMatches>
+      <TieBreakerRoundTime>00:00:00</TieBreakerRoundTime>
+      <NumNormalRounds>1</NumNormalRounds>
+      <NoGiMatchesAllowed>False</NoGiMatchesAllowed>
+      <UsesOsaekomiTimer>True</UsesOsaekomiTimer>
+      <OsaekomiIpponTime>00:00:20</OsaekomiIpponTime>
+      <OsaekomiWazaAriTime>00:00:10</OsaekomiWazaAriTime>
+      <OsaekomiYukoTime>00:00:10</OsaekomiYukoTime>
+      <OsaekomiKokaTime>00:00:10</OsaekomiKokaTime>
+      <UsesGoldenScoreTime>True</UsesGoldenScoreTime>
+      <GoldenScoreRoundIsSuddenDeath>True</GoldenScoreRoundIsSuddenDeath>
+      <NumberOfWazaAriForAwasetiIppon>99</NumberOfWazaAriForAwasetiIppon>
+      <NumberOfShidosForHansakuMake>3</NumberOfShidosForHansakuMake>
+      <NumberOfLegGrabsForHansakuMake>2</NumberOfLegGrabsForHansakuMake>
+      <UsesKoka>False</UsesKoka>
+      <UsesYuko>False</UsesYuko>
+      <UsesAdvantage>False</UsesAdvantage>
+      <UsesPenalties>True</UsesPenalties>
+      <PenaltyAwardsPointsToOpponant>False</PenaltyAwardsPointsToOpponant>
+      <UsesPointsBelowIppon>False</UsesPointsBelowIppon>
+      <IpponGivesPoints>False</IpponGivesPoints>
+      <ResetScoresOnGoldenScoreRound>False</ResetScoresOnGoldenScoreRound>
+      <ResetShidoOnGoldenScoreRound>False</ResetShidoOnGoldenScoreRound>
+      <IpponStopsClock>False</IpponStopsClock>
+      <CanGetIpponByOsaekomi>True</CanGetIpponByOsaekomi>
+      <AutoAwardScoreOnToketta>False</AutoAwardScoreOnToketta>
+      <CanHaveMoreThanOneIppon>False</CanHaveMoreThanOneIppon>
+      <WazaAriAwaseteIpponEndsMatch>False</WazaAriAwaseteIpponEndsMatch>
+      <Promote2WazaAriToIppon>False</Promote2WazaAriToIppon>
+      <IpponPoints>0</IpponPoints>
+      <WazaAriPoints>0</WazaAriPoints>
+      <YukoPoints>0</YukoPoints>
+      <KokaPoints>0</KokaPoints>
+      <ChuiPoints>0</ChuiPoints>
+      <ShidoPoints>0</ShidoPoints>
+      <ChokesAllowed>True</ChokesAllowed>
+      <ArmBarsAllowed>True</ArmBarsAllowed>
+      <LegLocksAllowed>False</LegLocksAllowed>
+      <MinimumAgeForChokes>13</MinimumAgeForChokes>
+      <MinimumAgeForArmLocks>18</MinimumAgeForArmLocks>
+      <MinimumAgeForLegLocks>0</MinimumAgeForLegLocks>
+    </Rules>
+  </RulesSet>
+</Settings>

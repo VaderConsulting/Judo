@@ -1,0 +1,24 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+.vs/
+packages/
+node_modules/
+.vshistory/
+.nugetaudit/
+AppPackages/
+*.user
+*.suo
+
+# Secrets and local data (use the .example files)
+client_secret*.json
+client_secret*.json.json
+!*.example
+appsettings.*.local.json
+secrets.json
+*.pfx
+*.snk
+*.mdf
+*.ldf
+*.mdb
+*.accdb

@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>JudoControls</RootNamespace>
+	<UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\JudoControls\JudoScoreboard.cs" Link="JudoScoreboard.cs" />
+    <Compile Include="..\JudoControls\JudoScoreboard.Designer.cs" Link="JudoScoreboard.Designer.cs" />
+    <Compile Include="..\JudoControls\Scoreboard\BluePlayer.cs" Link="Scoreboard\BluePlayer.cs" />
+    <Compile Include="..\JudoControls\Scoreboard\BluePlayer.Designer.cs" Link="Scoreboard\BluePlayer.Designer.cs" />
+    <Compile Include="..\JudoControls\Scoreboard\MatchData.cs" Link="Scoreboard\MatchData.cs" />
+    <Compile Include="..\JudoControls\Scoreboard\MatchData.Designer.cs" Link="Scoreboard\MatchData.Designer.cs" />
+    <Compile Include="..\JudoControls\Scoreboard\Player.cs" Link="Scoreboard\Player.cs" />
+    <Compile Include="..\JudoControls\Scoreboard\Player.Designer.cs" Link="Scoreboard\Player.Designer.cs" />
+    <Compile Include="..\JudoControls\Scoreboard\WhitePlayer.cs" Link="Scoreboard\WhitePlayer.cs" />
+    <Compile Include="..\JudoControls\Scoreboard\WhitePlayer.Designer.cs" Link="Scoreboard\WhitePlayer.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="..\JudoControls\JudoScoreboard.resx" Link="JudoScoreboard.resx" />
+    <EmbeddedResource Include="..\JudoControls\Scoreboard\BluePlayer.resx" Link="Scoreboard\BluePlayer.resx" />
+    <EmbeddedResource Include="..\JudoControls\Scoreboard\MatchData.resx" Link="Scoreboard\MatchData.resx" />
+    <EmbeddedResource Include="..\JudoControls\Scoreboard\Player.resx" Link="Scoreboard\Player.resx" />
+    <EmbeddedResource Include="..\JudoControls\Scoreboard\WhitePlayer.resx" Link="Scoreboard\WhitePlayer.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Scoreboard\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Utilities\Utilities_5\Utilities_5.csproj" />
+    <ProjectReference Include="..\UDP\CustomControls\CustomControls.csproj" />
+    <ProjectReference Include="..\UDP\Foundation_5\Foundation_5.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# RCS1085: Use auto-implemented property
+dotnet_diagnostic.RCS1085.severity = none

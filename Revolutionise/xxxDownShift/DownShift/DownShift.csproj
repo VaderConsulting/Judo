@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Company>Vader Consulting</Company>
+    <Authors>DAve Robinson</Authors>
+    <RootNamespace>VaderConsulting.JudoAustralia.DownShift</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="x\**" />
+    <EmbeddedResource Remove="x\**" />
+    <None Remove="x\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="frmDesigner.cs" />
+    <Compile Remove="frmDesigner.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="frmDesigner.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="..\Designer\frmDesigner.cs" Link="frmDesigner.cs" />
+    <Compile Include="..\Designer\frmDesigner.designer.cs" Link="frmDesigner.designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="..\Designer\frmDesigner.resx" Link="frmDesigner.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="3.0.0-preview7.19362.9" />
+    <PackageReference Include="NPOI" Version="2.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\JudoObjects\Classes\Classes.csproj" />
+    <ProjectReference Include="..\..\..\Utilities.Standard\Utilities.Core.csproj">
+      <Aliases>Utilities_Core</Aliases>
+    </ProjectReference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlagRaising", "FlagRaising.csproj", "{E05A62D0-B331-4DBA-B2D4-03516666FF9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "..\Utilities\Utilities.csproj", "{1265A275-9C94-4737-B780-9C378F3651D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomControls", "..\CustomControls\CustomControls.csproj", "{3985AC36-B3F0-405C-9564-87AD337B2D2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EuroJudo", "..\EuroJudo\EuroJudo.csproj", "{E4CF1508-6D04-4D08-8764-29AB5630B1EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E05A62D0-B331-4DBA-B2D4-03516666FF9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E05A62D0-B331-4DBA-B2D4-03516666FF9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E05A62D0-B331-4DBA-B2D4-03516666FF9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E05A62D0-B331-4DBA-B2D4-03516666FF9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1265A275-9C94-4737-B780-9C378F3651D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1265A275-9C94-4737-B780-9C378F3651D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1265A275-9C94-4737-B780-9C378F3651D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1265A275-9C94-4737-B780-9C378F3651D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3985AC36-B3F0-405C-9564-87AD337B2D2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3985AC36-B3F0-405C-9564-87AD337B2D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3985AC36-B3F0-405C-9564-87AD337B2D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3985AC36-B3F0-405C-9564-87AD337B2D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4CF1508-6D04-4D08-8764-29AB5630B1EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4CF1508-6D04-4D08-8764-29AB5630B1EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4CF1508-6D04-4D08-8764-29AB5630B1EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4CF1508-6D04-4D08-8764-29AB5630B1EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1639F6E2-87D3-43B0-808D-E4DBF60E8320}
+	EndGlobalSection
+EndGlobal

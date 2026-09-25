@@ -1,0 +1,95 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31911.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MappingTool", "Exporter\MappingTool.csproj", "{C16C4229-E106-4968-9704-02CF33766937}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "..\..\..\General\Utilities\Utilities.csproj", "{78189640-C5D9-4440-98AB-CF6807274A30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NPOIHelper", "..\..\..\General\NPOIHelper\NPOIHelper.csproj", "{282A8F5A-5053-4AD8-AB79-D9A4E4A48BCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EuroJudo", "..\..\EuroJudo\EuroJudo.csproj", "{E4CF1508-6D04-4D08-8764-29AB5630B1EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "..\..\Test\Test.csproj", "{9F85307E-6B8E-4D85-AC65-CA60CC4CE689}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{829AE078-4D9A-4C9E-BADC-8F569A104C56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IJF", "..\..\IJF\IJF.csproj", "{5008B42B-7A7A-40C1-B0F7-FB8DA74E1C37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Judo", "..\..\Judo\Judo.csproj", "{853297CE-ECA2-4439-9BA4-3443929950AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C16C4229-E106-4968-9704-02CF33766937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C16C4229-E106-4968-9704-02CF33766937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C16C4229-E106-4968-9704-02CF33766937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C16C4229-E106-4968-9704-02CF33766937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78189640-C5D9-4440-98AB-CF6807274A30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78189640-C5D9-4440-98AB-CF6807274A30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78189640-C5D9-4440-98AB-CF6807274A30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78189640-C5D9-4440-98AB-CF6807274A30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{282A8F5A-5053-4AD8-AB79-D9A4E4A48BCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{282A8F5A-5053-4AD8-AB79-D9A4E4A48BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{282A8F5A-5053-4AD8-AB79-D9A4E4A48BCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{282A8F5A-5053-4AD8-AB79-D9A4E4A48BCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4CF1508-6D04-4D08-8764-29AB5630B1EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4CF1508-6D04-4D08-8764-29AB5630B1EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4CF1508-6D04-4D08-8764-29AB5630B1EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4CF1508-6D04-4D08-8764-29AB5630B1EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F85307E-6B8E-4D85-AC65-CA60CC4CE689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F85307E-6B8E-4D85-AC65-CA60CC4CE689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F85307E-6B8E-4D85-AC65-CA60CC4CE689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F85307E-6B8E-4D85-AC65-CA60CC4CE689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{829AE078-4D9A-4C9E-BADC-8F569A104C56}.Debug|Any CPU.ActiveCfg = Debug
+		{829AE078-4D9A-4C9E-BADC-8F569A104C56}.Release|Any CPU.ActiveCfg = Release
+		{5008B42B-7A7A-40C1-B0F7-FB8DA74E1C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5008B42B-7A7A-40C1-B0F7-FB8DA74E1C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5008B42B-7A7A-40C1-B0F7-FB8DA74E1C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5008B42B-7A7A-40C1-B0F7-FB8DA74E1C37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{853297CE-ECA2-4439-9BA4-3443929950AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{853297CE-ECA2-4439-9BA4-3443929950AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{853297CE-ECA2-4439-9BA4-3443929950AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{853297CE-ECA2-4439-9BA4-3443929950AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D0524E4-3A71-497C-9F5A-03B430C79513}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/vaderconsulting
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\..\\EuroJudo\\EuroJudo.csproj
+		SccProjectName1 = ../../EuroJudo
+		SccLocalPath1 = ..\\..\\EuroJudo
+		SccProjectUniqueName2 = ..\\..\\IJF\\IJF.csproj
+		SccProjectName2 = ../../IJF
+		SccLocalPath2 = ..\\..\\IJF
+		SccProjectUniqueName3 = Exporter\\MappingTool.csproj
+		SccProjectName3 = Exporter
+		SccLocalPath3 = Exporter
+		SccProjectUniqueName4 = Setup\\Setup.vdproj
+		SccProjectName4 = Setup
+		SccLocalPath4 = Setup
+		SccProjectUniqueName5 = ..\\..\\Judo\\Judo.csproj
+		SccProjectName5 = ../../Judo
+		SccLocalPath5 = ..\\..\\Judo
+		SccProjectUniqueName6 = ..\\..\\..\\General\\NPOIHelper\\NPOIHelper.csproj
+		SccProjectName6 = ../../../General/NPOIHelper
+		SccLocalPath6 = ..\\..\\..\\General\\NPOIHelper
+		SccProjectUniqueName7 = ..\\..\\..\\General\\Utilities\\Utilities.csproj
+		SccProjectName7 = ../../../General/Utilities
+		SccLocalPath7 = ..\\..\\..\\General\\Utilities
+		SccProjectUniqueName8 = ..\\..\\Test\\Test.csproj
+		SccProjectName8 = ../../Test
+		SccLocalPath8 = ..\\..\\Test
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfStartInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StartInfo>
+    <Filename>C:\Program Files (x86)\Remapper\remapper.exe</Filename>
+    <Arguments>DCS_remapper.txt</Arguments>
+    <UseShellExecute>true</UseShellExecute>
+    <WindowStyle>Normal</WindowStyle>
+    <CreateNoWindow>false</CreateNoWindow>
+  </StartInfo>
+</ArrayOfStartInfo>

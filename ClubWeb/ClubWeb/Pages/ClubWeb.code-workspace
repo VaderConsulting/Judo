@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../JudoObjects/Classes"
+		},
+		{
+			"path": "../../../../General/Utilities"
+		}
+	],
+	"settings": {}
+}

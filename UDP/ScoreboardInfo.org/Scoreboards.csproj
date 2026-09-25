@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B593044A-01DE-4381-BC44-DFF8B91793B9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Scoreboards</RootNamespace>
+    <AssemblyName>Scoreboards</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Scoreboard.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Utilities\Utilities_48\Utilities_48.csproj">
+      <Project>{78189640-c5d9-4440-98ab-cf6807274a30}</Project>
+      <Name>Utilities_48</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\JudoControls\JudoControls.csproj">
+      <Project>{371f812e-491d-41b5-a4aa-8dcb3270b89c}</Project>
+      <Name>JudoControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CustomControls\CustomControls.csproj">
+      <Project>{3985ac36-b3f0-405c-9564-87ad337b2d2e}</Project>
+      <Name>CustomControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Foundation\Foundation.Core.csproj">
+      <Project>{0a4c7944-5a70-4921-b9cf-491574c87952}</Project>
+      <Name>Foundation.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Receiver\Receiver.Core.csproj">
+      <Project>{56247c15-69ea-48c1-ba26-0ccb73912a6c}</Project>
+      <Name>Receiver.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Scoreboard\Scoreboard.csproj">
+      <Project>{1c30473b-b7d4-4559-8cf6-27c4be4f14b6}</Project>
+      <Name>Scoreboard</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>13.0.1</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\ReceiverTest\English.xml">
+      <Link>English.xml</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ReceiverTest\French.xml">
+      <Link>French.xml</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ReceiverTest\German.xml">
+      <Link>German.xml</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ReceiverTest\Japanese.xml">
+      <Link>Japanese.xml</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ReceiverTest\Spanish.xml">
+      <Link>Spanish.xml</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ReceiverTest\Template.xml">
+      <Link>Template.xml</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scoreboard.ico" />
+    <None Include="Flags\zw.png" />
+    <None Include="Flags\zm.png" />
+    <None Include="Flags\za.png" />
+    <None Include="Flags\ye.png" />
+    <None Include="Flags\ws.png" />
+    <None Include="Flags\vu.png" />
+    <None Include="Flags\vn.png" />
+    <None Include="Flags\ve.png" />
+    <None Include="Flags\vc.png" />
+    <None Include="Flags\va.png" />
+    <None Include="Flags\uz.png" />
+    <None Include="Flags\uy.png" />
+    <None Include="Flags\us.png" />
+    <None Include="Flags\ug.png" />
+    <None Include="Flags\ua.png" />
+    <None Include="Flags\tz.png" />
+    <None Include="Flags\tw.png" />
+    <None Include="Flags\tv.png" />
+    <None Include="Flags\tt.png" />
+    <None Include="Flags\tr.png" />
+    <None Include="Flags\to.png" />
+    <None Include="Flags\tn.png" />
+    <None Include="Flags\tm.png" />
+    <None Include="Flags\tl.png" />
+    <None Include="Flags\tj.png" />
+    <None Include="Flags\th.png" />
+    <None Include="Flags\tg.png" />
+    <None Include="Flags\td.png" />
+    <None Include="Flags\sz.png" />
+    <None Include="Flags\sy.png" />
+    <None Include="Flags\sv.png" />
+    <None Include="Flags\st.png" />
+    <None Include="Flags\sr.png" />
+    <None Include="Flags\so.png" />
+    <None Include="Flags\sn.png" />
+    <None Include="Flags\sm.png" />
+    <None Include="Flags\sl.png" />
+    <None Include="Flags\sk.png" />
+    <None Include="Flags\si.png" />
+    <None Include="Flags\sg.png" />
+    <None Include="Flags\se.png" />
+    <None Include="Flags\sd.png" />
+    <None Include="Flags\sc.png" />
+    <None Include="Flags\sb.png" />
+    <None Include="Flags\sa.png" />
+    <None Include="Flags\rw.png" />
+    <None Include="Flags\ru.png" />
+    <None Include="Flags\rs.png" />
+    <None Include="Flags\ro.png" />
+    <None Include="Flags\qa.png" />
+    <None Include="Flags\py.png" />
+    <None Include="Flags\pw.png" />
+    <None Include="Flags\pt.png" />
+    <None Include="Flags\pl.png" />
+    <None Include="Flags\pk.png" />
+    <None Include="Flags\ph.png" />
+    <None Include="Flags\pg.png" />
+    <None Include="Flags\pe.png" />
+    <None Include="Flags\pa.png" />
+    <None Include="Flags\om.png" />
+    <None Include="Flags\nz.png" />
+    <None Include="Flags\nr.png" />
+    <None Include="Flags\np.png" />
+    <None Include="Flags\no.png" />
+    <None Include="Flags\nl.png" />
+    <None Include="Flags\ni.png" />
+    <None Include="Flags\ng.png" />
+    <None Include="Flags\ne.png" />
+    <None Include="Flags\na.png" />
+    <None Include="Flags\mz.png" />
+    <None Include="Flags\my.png" />
+    <None Include="Flags\mx.png" />
+    <None Include="Flags\mw.png" />
+    <None Include="Flags\mv.png" />
+    <None Include="Flags\mu.png" />
+    <None Include="Flags\mt.png" />
+    <None Include="Flags\mr.png" />
+    <None Include="Flags\mn.png" />
+    <None Include="Flags\mm.png" />
+    <None Include="Flags\ml.png" />
+    <None Include="Flags\mk.png" />
+    <None Include="Flags\mh.png" />
+    <None Include="Flags\mg.png" />
+    <None Include="Flags\me.png" />
+    <None Include="Flags\md.png" />
+    <None Include="Flags\mc.png" />
+    <None Include="Flags\ma.png" />
+    <None Include="Flags\ly.png" />
+    <None Include="Flags\lv.png" />
+    <None Include="Flags\lu.png" />
+    <None Include="Flags\lt.png" />
+    <None Include="Flags\ls.png" />
+    <None Include="Flags\lr.png" />
+    <None Include="Flags\lk.png" />
+    <None Include="Flags\li.png" />
+    <None Include="Flags\lc.png" />
+    <None Include="Flags\lb.png" />
+    <None Include="Flags\la.png" />
+    <None Include="Flags\kz.png" />
+    <None Include="Flags\kw.png" />
+    <None Include="Flags\ks.png" />
+    <None Include="Flags\kr.png" />
+    <None Include="Flags\kp.png" />
+    <None Include="Flags\kn.png" />
+    <None Include="Flags\km.png" />
+    <None Include="Flags\ki.png" />
+    <None Include="Flags\kh.png" />
+    <None Include="Flags\kg.png" />
+    <None Include="Flags\ke.png" />
+    <None Include="Flags\jp.png" />
+    <None Include="Flags\jo.png" />
+    <None Include="Flags\jm.png" />
+    <None Include="Flags\it.png" />
+    <None Include="Flags\is.png" />
+    <None Include="Flags\ir.png" />
+    <None Include="Flags\iq.png" />
+    <None Include="Flags\in.png" />
+    <None Include="Flags\il.png" />
+    <None Include="Flags\ie.png" />
+    <None Include="Flags\id.png" />
+    <None Include="Flags\hu.png" />
+    <None Include="Flags\ht.png" />
+    <None Include="Flags\hr.png" />
+    <None Include="Flags\hn.png" />
+    <None Include="Flags\gy.png" />
+    <None Include="Flags\gw.png" />
+    <None Include="Flags\gt.png" />
+    <None Include="Flags\gr.png" />
+    <None Include="Flags\gq.png" />
+    <None Include="Flags\gn.png" />
+    <None Include="Flags\gm.png" />
+    <None Include="Flags\gh.png" />
+    <None Include="Flags\ge.png" />
+    <None Include="Flags\gd.png" />
+    <None Include="Flags\gb.png" />
+    <None Include="Flags\ga.png" />
+    <None Include="Flags\fr.png" />
+    <None Include="Flags\fm.png" />
+    <None Include="Flags\fj.png" />
+    <None Include="Flags\fi.png" />
+    <None Include="Flags\et.png" />
+    <None Include="Flags\es.png" />
+    <None Include="Flags\er.png" />
+    <None Include="Flags\eh.png" />
+    <None Include="Flags\eg.png" />
+    <None Include="Flags\ee.png" />
+    <None Include="Flags\ec.png" />
+    <None Include="Flags\dz.png" />
+    <None Include="Flags\do.png" />
+    <None Include="Flags\dm.png" />
+    <None Include="Flags\dk.png" />
+    <None Include="Flags\dj.png" />
+    <None Include="Flags\de.png" />
+    <None Include="Flags\cz.png" />
+    <None Include="Flags\cy.png" />
+    <None Include="Flags\cv.png" />
+    <None Include="Flags\cu.png" />
+    <None Include="Flags\cr.png" />
+    <None Include="Flags\co.png" />
+    <None Include="Flags\cn.png" />
+    <None Include="Flags\cm.png" />
+    <None Include="Flags\cl.png" />
+    <None Include="Flags\ci.png" />
+    <None Include="Flags\ch.png" />
+    <None Include="Flags\cg.png" />
+    <None Include="Flags\cf.png" />
+    <None Include="Flags\cd.png" />
+    <None Include="Flags\ca.png" />
+    <None Include="Flags\bz.png" />
+    <None Include="Flags\by.png" />
+    <None Include="Flags\bw.png" />
+    <None Include="Flags\bt.png" />
+    <None Include="Flags\bs.png" />
+    <None Include="Flags\br.png" />
+    <None Include="Flags\bo.png" />
+    <None Include="Flags\bn.png" />
+    <None Include="Flags\bj.png" />
+    <None Include="Flags\bi.png" />
+    <None Include="Flags\bh.png" />
+    <None Include="Flags\bg.png" />
+    <None Include="Flags\bf.png" />
+    <None Include="Flags\be.png" />
+    <None Include="Flags\bd.png" />
+    <None Include="Flags\bb.png" />
+    <None Include="Flags\ba.png" />
+    <None Include="Flags\az.png" />
+    <None Include="Flags\au.png" />
+    <None Include="Flags\at.png" />
+    <None Include="Flags\ar.png" />
+    <None Include="Flags\ao.png" />
+    <None Include="Flags\am.png" />
+    <None Include="Flags\al.png" />
+    <None Include="Flags\ag.png" />
+    <None Include="Flags\af.png" />
+    <None Include="Flags\ae.png" />
+    <None Include="Flags\ad.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

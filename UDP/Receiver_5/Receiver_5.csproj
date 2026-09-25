@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>Receiver</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\Receiver\Conversion.cs" Link="Conversion.cs" />
+    <Compile Include="..\Receiver\LanguageFile.cs" Link="LanguageFile.cs" />
+    <Compile Include="..\Receiver\UDPDataReceivedEventArgs.cs" Link="UDPDataReceivedEventArgs.cs" />
+    <Compile Include="..\Receiver\UDPListener.cs" Link="UDPListener.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Foundation_5\Foundation_5.csproj" />
+  </ItemGroup>
+
+</Project>

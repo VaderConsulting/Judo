@@ -1,0 +1,70 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+	<UseWindowsForms>true</UseWindowsForms>
+	<RootNamespace>Judo</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\Foundation\Address.cs" Link="Address.cs" />
+    <Compile Include="..\Foundation\AgeCategory.cs" Link="AgeCategory.cs" />
+    <Compile Include="..\Foundation\Belt.cs" Link="Belt.cs" />
+    <Compile Include="..\Foundation\Category.cs" Link="Category.cs" />
+    <Compile Include="..\Foundation\Club.cs" Link="Club.cs" />
+    <Compile Include="..\Foundation\EmailAddress.cs" Link="EmailAddress.cs" />
+    <Compile Include="..\Foundation\Enums.cs" Link="Enums.cs" />
+    <Compile Include="..\Foundation\Mat.cs" Link="Mat.cs" />
+    <Compile Include="..\Foundation\Match.cs" Link="Match.cs" />
+    <Compile Include="..\Foundation\Name.cs" Link="Name.cs" />
+    <Compile Include="..\Foundation\Nation.cs" Link="Nation.cs" />
+    <Compile Include="..\Foundation\Person.cs" Link="Person.cs" />
+    <Compile Include="..\Foundation\PhoneNumber.cs" Link="PhoneNumber.cs" />
+    <Compile Include="..\Foundation\Player.cs" Link="Player.cs" />
+    <Compile Include="..\Foundation\Rank.cs" Link="Rank.cs" />
+    <Compile Include="..\Foundation\Score.cs" Link="Score.cs" />
+    <Compile Include="..\Foundation\ScoreboardData.cs" Link="ScoreboardData.cs" />
+    <Compile Include="..\Foundation\Technique.cs" Link="Technique.cs" />
+    <Compile Include="..\Foundation\Tournament.cs" Link="Tournament.cs" />
+    <Compile Include="..\Foundation\UDPSegment.cs" Link="UDPSegment.cs" />
+    <Compile Include="..\Foundation\Weight.cs" Link="Weight.cs" />
+    <Compile Include="..\Foundation\WeightCategory.cs" Link="WeightCategory.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.Drawing.Common" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Utilities\Utilities_5\Utilities_5.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>

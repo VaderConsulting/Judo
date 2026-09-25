@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{371F812E-491D-41B5-A4AA-8DCB3270B89C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JudoControls</RootNamespace>
+    <AssemblyName>JudoControls</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\UDP\packages\System.Drawing.Common.6.0.0\lib\net461\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="JudoScoreboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="JudoScoreboard.Designer.cs">
+      <DependentUpon>JudoScoreboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Scoreboard\BluePlayer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Scoreboard\BluePlayer.Designer.cs">
+      <DependentUpon>BluePlayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Scoreboard\MatchData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Scoreboard\MatchData.Designer.cs">
+      <DependentUpon>MatchData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Scoreboard\Player.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Scoreboard\Player.Designer.cs">
+      <DependentUpon>Player.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Scoreboard\WhitePlayer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Scoreboard\WhitePlayer.Designer.cs">
+      <DependentUpon>WhitePlayer.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Utilities\Utilities_48\Utilities_48.csproj">
+      <Project>{78189640-c5d9-4440-98ab-cf6807274a30}</Project>
+      <Name>Utilities_48</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JudoObjects\Classes\Classes.csproj">
+      <Project>{5186a5a0-b87f-401e-9ddf-47e8ad7c1f17}</Project>
+      <Name>Classes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Judo\Judo.csproj">
+      <Project>{853297ce-eca2-4439-9ba4-3443929950aa}</Project>
+      <Name>Judo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UDP\CustomControls\CustomControls.csproj">
+      <Project>{3985ac36-b3f0-405c-9564-87ad337b2d2e}</Project>
+      <Name>CustomControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UDP\Foundation\Foundation.Core.csproj">
+      <Project>{0a4c7944-5a70-4921-b9cf-491574c87952}</Project>
+      <Name>Foundation.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="JudoScoreboard.resx">
+      <DependentUpon>JudoScoreboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scoreboard\BluePlayer.resx">
+      <DependentUpon>BluePlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scoreboard\MatchData.resx">
+      <DependentUpon>MatchData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scoreboard\Player.resx">
+      <DependentUpon>Player.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scoreboard\WhitePlayer.resx">
+      <DependentUpon>WhitePlayer.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\1_Shido.png" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\2_Shido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Hansokumake.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\acb_m.jpg" />
+    <Content Include="Images\ady_m.jpg" />
+    <Content Include="Images\afg_m.jpg" />
+    <Content Include="Images\aho_m.jpg" />
+    <Content Include="Images\alb_m.jpg" />
+    <Content Include="Images\alg_m.jpg" />
+    <Content Include="Images\and_m.jpg" />
+    <Content Include="Images\ang_m.jpg" />
+    <Content Include="Images\ant_m.jpg" />
+    <Content Include="Images\arg_m.jpg" />
+    <Content Include="Images\arm_m.jpg" />
+    <Content Include="Images\aru_m.jpg" />
+    <Content Include="Images\asa_m.jpg" />
+    <Content Include="Images\aus_m.jpg" />
+    <Content Include="Images\aut_m.jpg" />
+    <Content Include="Images\aze_m.jpg" />
+    <Content Include="Images\bah_m.jpg" />
+    <Content Include="Images\ban_m.jpg" />
+    <Content Include="Images\bar_m.jpg" />
+    <Content Include="Images\bdi_m.jpg" />
+    <Content Include="Images\bel_m.jpg" />
+    <Content Include="Images\ben_m.jpg" />
+    <Content Include="Images\ber_m.jpg" />
+    <Content Include="Images\bih_m.jpg" />
+    <Content Include="Images\biz_m.jpg" />
+    <Content Include="Images\blr_m.jpg" />
+    <Content Include="Images\bol_m.jpg" />
+    <Content Include="Images\bot_m.jpg" />
+    <Content Include="Images\bra_m.jpg" />
+    <Content Include="Images\brn_m.jpg" />
+    <Content Include="Images\bru_m.jpg" />
+    <Content Include="Images\bsh_m.jpg" />
+    <Content Include="Images\bul_m.jpg" />
+    <Content Include="Images\bur_m.jpg" />
+    <Content Include="Images\caf_m.jpg" />
+    <Content Include="Images\cam_m.jpg" />
+    <Content Include="Images\can_m.jpg" />
+    <Content Include="Images\cay_m.jpg" />
+    <Content Include="Images\cer_m.jpg" />
+    <Content Include="Images\cgo_m.jpg" />
+    <Content Include="Images\cha_m.jpg" />
+    <Content Include="Images\chi_m.jpg" />
+    <Content Include="Images\chn_m.jpg" />
+    <Content Include="Images\cis_m.jpg" />
+    <Content Include="Images\civ_m.jpg" />
+    <Content Include="Images\cmr_m.jpg" />
+    <Content Include="Images\cnz_m.jpg" />
+    <Content Include="Images\cod_m.jpg" />
+    <Content Include="Images\cok_m.jpg" />
+    <Content Include="Images\col_m.jpg" />
+    <Content Include="Images\com_m.jpg" />
+    <Content Include="Images\cos_m.jpg" />
+    <Content Include="Images\cpv_m.jpg" />
+    <Content Include="Images\crc_m.jpg" />
+    <Content Include="Images\cro_m.jpg" />
+    <Content Include="Images\csg_m.jpg" />
+    <Content Include="Images\cub_m.jpg" />
+    <Content Include="Images\cuw_m.jpg" />
+    <Content Include="Images\cyp_m.jpg" />
+    <Content Include="Images\cze_m.jpg" />
+    <Content Include="Images\ddr_m.jpg" />
+    <Content Include="Images\den_m.jpg" />
+    <Content Include="Images\din_m.jpg" />
+    <Content Include="Images\dji_m.jpg" />
+    <Content Include="Images\dma_m.jpg" />
+    <Content Include="Images\dom_m.jpg" />
+    <Content Include="Images\ecu_m.jpg" />
+    <Content Include="Images\egy_m.jpg" />
+    <Content Include="Images\eng_m.jpg" />
+    <Content Include="Images\esa_m.jpg" />
+    <Content Include="Images\esp_m.jpg" />
+    <Content Include="Images\esp_mad_m.jpg" />
+    <Content Include="Images\esp_mel_m.jpg" />
+    <Content Include="Images\esp_mur_m.jpg" />
+    <Content Include="Images\est_m.jpg" />
+    <Content Include="Images\eth_m.jpg" />
+    <Content Include="Images\far_m.jpg" />
+    <Content Include="Images\fia_m.jpg" />
+    <Content Include="Images\fij_m.jpg" />
+    <Content Include="Images\fin_m.jpg" />
+    <Content Include="Images\fpl_m.jpg" />
+    <Content Include="Images\fra_m.jpg" />
+    <Content Include="Images\gab_m.jpg" />
+    <Content Include="Images\gal_m.jpg" />
+    <Content Include="Images\gam_m.jpg" />
+    <Content Include="Images\gbr_m.jpg" />
+    <Content Include="Images\gbs_m.jpg" />
+    <Content Include="Images\gdr_m.jpg" />
+    <Content Include="Images\geo_m.jpg" />
+    <Content Include="Images\geq_m.jpg" />
+    <Content Include="Images\ger_m.jpg" />
+    <Content Include="Images\ger_mv_m.jpg" />
+    <Content Include="Images\ggy_m.jpg" />
+    <Content Include="Images\gha_m.jpg" />
+    <Content Include="Images\gre_m.jpg" />
+    <Content Include="Images\grn_m.jpg" />
+    <Content Include="Images\gro_m.jpg" />
+    <Content Include="Images\gsy_m.jpg" />
+    <Content Include="Images\gua_m.jpg" />
+    <Content Include="Images\gui_m.jpg" />
+    <Content Include="Images\gum_m.jpg" />
+    <Content Include="Images\gus_m.jpg" />
+    <Content Include="Images\guy_m.jpg" />
+    <Content Include="Images\hai_m.jpg" />
+    <Content Include="Images\hkg_m.jpg" />
+    <Content Include="Images\hon_m.jpg" />
+    <Content Include="Images\hun_m.jpg" />
+    <Content Include="Images\ina_m.jpg" />
+    <Content Include="Images\ind_m.jpg" />
+    <Content Include="Images\iom_m.jpg" />
+    <Content Include="Images\iri_m.jpg" />
+    <Content Include="Images\irl_m.jpg" />
+    <Content Include="Images\irn_m.jpg" />
+    <Content Include="Images\irq_m.jpg" />
+    <Content Include="Images\isl_m.jpg" />
+    <Content Include="Images\isr_m.jpg" />
+    <Content Include="Images\isv_m.jpg" />
+    <Content Include="Images\ita_m.jpg" />
+    <Content Include="Images\ivb_m.jpg" />
+    <Content Include="Images\jam_m.jpg" />
+    <Content Include="Images\jer_m.jpg" />
+    <Content Include="Images\jor_m.jpg" />
+    <Content Include="Images\jpn_m.jpg" />
+    <Content Include="Images\jts_m.jpg" />
+    <Content Include="Images\jua_m.jpg" />
+    <Content Include="Images\kaz_m.jpg" />
+    <Content Include="Images\kbr_m.jpg" />
+    <Content Include="Images\ken_m.jpg" />
+    <Content Include="Images\kgz_m.jpg" />
+    <Content Include="Images\kor_m.jpg" />
+    <Content Include="Images\kos_m.jpg" />
+    <Content Include="Images\ksa_m.jpg" />
+    <Content Include="Images\kuw_m.jpg" />
+    <Content Include="Images\kyr_m.jpg" />
+    <Content Include="Images\lac_m.jpg" />
+    <Content Include="Images\lao_m.jpg" />
+    <Content Include="Images\lat_m.jpg" />
+    <Content Include="Images\lba_m.jpg" />
+    <Content Include="Images\lbr_m.jpg" />
+    <Content Include="Images\lca_m.jpg" />
+    <Content Include="Images\lev_m.jpg" />
+    <Content Include="Images\lib_m.jpg" />
+    <Content Include="Images\lie_m.jpg" />
+    <Content Include="Images\lim_m.jpg" />
+    <Content Include="Images\lit_m.jpg" />
+    <Content Include="Images\ltu_m.jpg" />
+    <Content Include="Images\lux_m.jpg" />
+    <Content Include="Images\mac_m.jpg" />
+    <Content Include="Images\mad_m.jpg" />
+    <Content Include="Images\mal_m.jpg" />
+    <Content Include="Images\mar_m.jpg" />
+    <Content Include="Images\mas_m.jpg" />
+    <Content Include="Images\maw_m.jpg" />
+    <Content Include="Images\mda_m.jpg" />
+    <Content Include="Images\mex_m.jpg" />
+    <Content Include="Images\mgl_m.jpg" />
+    <Content Include="Images\mgo_m.jpg" />
+    <Content Include="Images\mkd_m.jpg" />
+    <Content Include="Images\mld_m.jpg" />
+    <Content Include="Images\mli_m.jpg" />
+    <Content Include="Images\mlt_m.jpg" />
+    <Content Include="Images\mne_m.jpg" />
+    <Content Include="Images\moa_m.jpg" />
+    <Content Include="Images\mon_m.jpg" />
+    <Content Include="Images\moz_m.jpg" />
+    <Content Include="Images\mri_m.jpg" />
+    <Content Include="Images\msk_m.jpg" />
+    <Content Include="Images\mtn_m.jpg" />
+    <Content Include="Images\mya_m.jpg" />
+    <Content Include="Images\nam_m.jpg" />
+    <Content Include="Images\nau_m.jpg" />
+    <Content Include="Images\nca_m.jpg" />
+    <Content Include="Images\ncl_m.jpg" />
+    <Content Include="Images\ned_m.jpg" />
+    <Content Include="Images\nep_m.jpg" />
+    <Content Include="Images\new_m.jpg" />
+    <Content Include="Images\nfk_m.jpg" />
+    <Content Include="Images\ngr_m.jpg" />
+    <Content Include="Images\nic_m.jpg" />
+    <Content Include="Images\nig_m.jpg" />
+    <Content Include="Images\nir_m.jpg" />
+    <Content Include="Images\niu_m.jpg" />
+    <Content Include="Images\nma_m.jpg" />
+    <Content Include="Images\nor_m.jpg" />
+    <Content Include="Images\nru_m.jpg" />
+    <Content Include="Images\nzl_m.jpg" />
+    <Content Include="Images\pak_m.jpg" />
+    <Content Include="Images\pan_m.jpg" />
+    <Content Include="Images\par_m.jpg" />
+    <Content Include="Images\per_m.jpg" />
+    <Content Include="Images\phi_m.jpg" />
+    <Content Include="Images\ple_m.jpg" />
+    <Content Include="Images\plw_m.jpg" />
+    <Content Include="Images\png_m.jpg" />
+    <Content Include="Images\pol_m.jpg" />
+    <Content Include="Images\pon_m.jpg" />
+    <Content Include="Images\por_m.jpg" />
+    <Content Include="Images\prk_m.jpg" />
+    <Content Include="Images\pur_m.jpg" />
+    <Content Include="Images\pyf_m.jpg" />
+    <Content Include="Images\qat_m.jpg" />
+    <Content Include="Images\rat_m.jpg" />
+    <Content Include="Images\rdc_m.jpg" />
+    <Content Include="Images\rev_m.jpg" />
+    <Content Include="Images\rig_m.jpg" />
+    <Content Include="Images\rom_m.jpg" />
+    <Content Include="Images\rou_m.jpg" />
+    <Content Include="Images\rsa_m.jpg" />
+    <Content Include="Images\rsc_m.jpg" />
+    <Content Include="Images\rus_m.jpg" />
+    <Content Include="Images\rwa_m.jpg" />
+    <Content Include="Images\s70_m.jpg" />
+    <Content Include="Images\sag_m.jpg" />
+    <Content Include="Images\sam_m.jpg" />
+    <Content Include="Images\scg_m.jpg" />
+    <Content Include="Images\sco_m.jpg" />
+    <Content Include="Images\sen_m.jpg" />
+    <Content Include="Images\ser_m.jpg" />
+    <Content Include="Images\ser_m_old.jpg" />
+    <Content Include="Images\sey_m.jpg" />
+    <Content Include="Images\sgs_m.jpg" />
+    <Content Include="Images\sha_m.jpg" />
+    <Content Include="Images\she_m.jpg" />
+    <Content Include="Images\sin_m.jpg" />
+    <Content Include="Images\sle_m.jpg" />
+    <Content Include="Images\slo_m.jpg" />
+    <Content Include="Images\smr_m.jpg" />
+    <Content Include="Images\sol_m.jpg" />
+    <Content Include="Images\som_m.jpg" />
+    <Content Include="Images\srb_m.jpg" />
+    <Content Include="Images\sri_m.jpg" />
+    <Content Include="Images\suc_m.jpg" />
+    <Content Include="Images\sud_m.jpg" />
+    <Content Include="Images\sui_m.jpg" />
+    <Content Include="Images\sur_m.jpg" />
+    <Content Include="Images\svk_m.jpg" />
+    <Content Include="Images\swe_m.jpg" />
+    <Content Include="Images\swz_m.jpg" />
+    <Content Include="Images\syr_m.jpg" />
+    <Content Include="Images\tan_m.jpg" />
+    <Content Include="Images\tch_m.jpg" />
+    <Content Include="Images\tga_m.jpg" />
+    <Content Include="Images\tgo_m.jpg" />
+    <Content Include="Images\tha_m.jpg" />
+    <Content Include="Images\tjk_m.jpg" />
+    <Content Include="Images\tkm_m.jpg" />
+    <Content Include="Images\tog_m.jpg" />
+    <Content Include="Images\tra_m.jpg" />
+    <Content Include="Images\tri_m.jpg" />
+    <Content Include="Images\tsv_m.jpg" />
+    <Content Include="Images\tto_m.jpg" />
+    <Content Include="Images\tun_m.jpg" />
+    <Content Include="Images\tur_m.jpg" />
+    <Content Include="Images\uae_m.jpg" />
+    <Content Include="Images\uga_m.jpg" />
+    <Content Include="Images\ugr_m.jpg" />
+    <Content Include="Images\ukr_m.jpg" />
+    <Content Include="Images\urg_m.jpg" />
+    <Content Include="Images\urs_m.jpg" />
+    <Content Include="Images\uru_m.jpg" />
+    <Content Include="Images\usa_m.jpg" />
+    <Content Include="Images\uzb_m.jpg" />
+    <Content Include="Images\van_m.jpg" />
+    <Content Include="Images\ven_m.jpg" />
+    <Content Include="Images\vie_m.jpg" />
+    <Content Include="Images\wal_m.jpg" />
+    <Content Include="Images\yaw_m.jpg" />
+    <Content Include="Images\yem_m.jpg" />
+    <Content Include="Images\yug_m.jpg" />
+    <Content Include="Images\zam_m.jpg" />
+    <Content Include="Images\zim_m.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

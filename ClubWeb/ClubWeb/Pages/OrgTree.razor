@@ -1,0 +1,66 @@
+@page "/"
+@inject ClubWeb.Services.IOrgUnitService OrgUnitService
+
+<PageTitle>Organisation Tree - ClubWeb</PageTitle>
+
+<h3>Organisation Tree</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Organisation</th>
+            <th>Type</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (OrgUnitDisplayNode Node in FlattenTree(_RootOrgUnit))
+        {
+            <tr>
+                <td>@Node.IndentedName</td>
+                <td>@Node.OrgType</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    private sealed class OrgUnitDisplayNode
+    {
+        public string Name { get; set; } = string.Empty;
+        public string OrgType { get; set; } = string.Empty;
+        public string IndentedName { get; set; } = string.Empty;
+        public int Depth { get; set; } = 0;
+    }
+
+    private Classes.OrgUnit _RootOrgUnit = new Classes.OrgUnit();
+
+    protected override void OnInitialized()
+    {
+        _RootOrgUnit = OrgUnitService.GetRoot();
+    }
+
+    private List<OrgUnitDisplayNode> FlattenTree(Classes.OrgUnit Node)
+    {
+        List<OrgUnitDisplayNode> Result = new List<OrgUnitDisplayNode>();
+        FlattenTreeRecursive(Node, 0, Result);
+        return Result;
+    }
+
+    private void FlattenTreeRecursive(Classes.OrgUnit Node, int Depth, List<OrgUnitDisplayNode> Result)
+    {
+        OrgUnitDisplayNode DisplayNode = new OrgUnitDisplayNode
+        {
+            Name = Node.Name,
+            OrgType = Node.OrgType.ToString(),
+            IndentedName = new string(' ', Depth * 4) + Node.Name,
+            Depth = Depth
+        };
+        Result.Add(DisplayNode);
+
+        foreach (Classes.OrgUnit Child in Node.ChildOrgUnits)
+        {
+            FlattenTreeRecursive(Child, Depth + 1, Result);
+        }
+    }
+}
+

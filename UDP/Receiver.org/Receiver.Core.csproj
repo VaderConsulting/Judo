@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <!--TargetFramework>netcoreapp2.0</TargetFramework>-->
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Dave Robinson</Authors>
+    <Company>Vader Consulting</Company>
+    <Product>UDP Receiver</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Extensions_notused.cs" />
+    <Compile Remove="ScoreboardData.cs" />
+    <Compile Remove="ScoreboardData_notused.cs" />
+    <Compile Remove="UDPSegment.cs" />
+    <Compile Remove="UDPSegment_notused.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Utilities\Utilities_48\Utilities_48.csproj" />
+    <ProjectReference Include="..\..\JudoControls\JudoControls.csproj" />
+    <ProjectReference Include="..\..\Judo\Judo.csproj" />
+    <ProjectReference Include="..\Foundation\Foundation.Core.csproj" />
+  </ItemGroup>
+
+</Project>
