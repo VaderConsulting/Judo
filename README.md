@@ -2,6 +2,8 @@
 
 C# tools for judo events and clubs: UDP scoreboards, venue displays, kata scoring, membership and Revolutionise export. The collection grew between 2016 and 2025 and covers match-day software (scoreboard broadcasters and listeners for IJF/EuroJudo scoreboard feeds, the Shisutemu venue system with scoreboard, kiosk, media player and switchboard apps, a flag-raising ceremony display, kata scorecards and a video-based match analyser) and club administration (membership and ClubWeb web apps, a match video renamer, and an exporter that turns Revolutionise Sports registrations into EuroJudo XLS or IJF import files). Many projects exist in several framework generations side by side (.NET Framework 4.x, .NET Core, .NET Standard and .NET 5 to 10); folders ending in `.org`, `_48` or `_5` hold earlier or alternate-framework versions.
 
+Working copy from my Historical Dev folder.
+
 **Source last updated:** 2025-11-23 · **Language:** C# · **Target frameworks:** .NET Framework 4.5.2-4.8, .NET Core 1.1-3.1, .NET Standard 2.0/2.1, .NET 5/6/8/10 (incl. `-windows`) · **Output types:** WinForms exes, console apps, ASP.NET Core / Blazor web apps, class libraries, MSIX package
 
 ## Solution structure
