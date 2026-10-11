@@ -67,4 +67,4 @@ The Google API client file for Kiosk is provided as `Shisutemu/Kiosk/client_secr
 
 ## License
 
-MIT License, Copyright (c) 2026 VaderConsulting. See [LICENSE](LICENSE).
+MIT License, Copyright (c) 2026 Vader Consulting. See [LICENSE](LICENSE).
